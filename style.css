@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  width: 360px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 22px;
+  color: #38bdf8;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #facc15;
+}
+
+input[type="text"], input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #3b82f6;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+  margin-top: 12px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+.rules {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.credit {
+  margin-top: 18px;
+  font-size: 13px;
+  color: #94a3b8;
+  }
